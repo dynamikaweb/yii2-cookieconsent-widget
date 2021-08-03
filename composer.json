@@ -1,8 +1,8 @@
 {
-    "name": "dynamikaweb/yii2-template",
-    "description": "",
+    "name": "dynamikaweb/yii2-cookieconsent-widget",
+    "description": "Cookie Consent is a lightweight JavaScript plugin for alerting users about the use of cookies on your website.",
     "type": "yii2-extension",
-    "keywords": ["dynamika", "yii2"],
+    "keywords": ["dynamika", "yii2", "cookie"],
     "license": "BSD-3-Clause",
     "authors": [
         {
@@ -17,17 +17,18 @@
         }
     ],
     "support": {
-        "issues": "http://github.com/dynamikaweb/yii2-template/issues",
-        "source": "http://github.com/dynamikaweb/yii2-template"
+        "issues": "http://github.com/dynamikaweb/yii2-cookieconsent-widget/issues",
+        "source": "http://github.com/dynamikaweb/yii2-cookieconsent-widget"
     },
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.0",
-        "yiisoft/yii2": "*"
+        "yiisoft/yii2": "*",
+        "npm-asset/cookieconsent": "3.*"
     },
     "autoload": {
         "psr-4": {
-            "dynamikaweb\\": "src"
+            "dynamikaweb\\cookieconsent\\": "src"
         }
     },
     "repositories": [
